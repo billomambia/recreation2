@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="recreation.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="recreation.css" type="text/css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Recreational</title>
     <style>
         body {
@@ -61,9 +64,36 @@
             }
         }
     </style>
+    <style>
+        /* width */
+
+        ::-webkit-scrollbar {
+            width: 20px;
+        }
+
+        /* Track */
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+
+        ::-webkit-scrollbar-thumb {
+            background: darkgoldenrod;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b30000;
+        }
+    </style>
 
 <body>
-    <div class=" container ">
+    <div class=" container-10 ">
 
         <div id="mySidenav " class="sidenav ">
             <a href="javascript:void(0) " class="closebtn " onclick="closeNav() ">&times;</a>
@@ -76,9 +106,15 @@
             <a href="medical.html ">Health tourism.</a>
             <a href="adventure.html ">Adventure tourism.</a>
         </div>
+        <h1 id="titlepage">Recreational Tourism</h1>
         <div class="main ">
             <span style="font-size:30px;cursor:pointer " onclick="openNav() ">&#9776; open</span>
         </div>
+        <Div class="about">
+            <p>The main aims of recreational tourism include active participation in some kind of recreational activity
+                , or, participating in a sport or cultural event as spectator. (Going to a play in a theatre).
+                Intellectual recreational activities are also realized within the framework of tourism.</p>
+        </Div>
         <script>
             function openNav() {
                 document.getElementById("mySidenav ").style.width = "250px ";
@@ -92,8 +128,229 @@
                 document.body.style.backgroundColor = "white ";
             }
         </script>
-        
-    </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Pictures/muhammad-taufik-WAcxWburQAU-unsplash.jpg" alt="Los Angeles" width="1100"
+                        height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Pictures/appic-fKqo8mXSA3o-unsplash.jpg" alt="Chicago" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Pictures/brendan-miranda-OwTA4466nSI-unsplash.jpg" alt="New York" width="1100"
+                        height="500">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="row">
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/ferriss.jpg" alt="" style="width:100%">
+                    <h1>The Eye:</h1>
+                    <p class="title">The 60-metre high wheel, dubbed 'Eye of Kenya' is meant to give visitors
+                        exceptional views of Nairobi City. It has 40 cabins spread out along its rim with each cabin
+                        allowing up to 6 passengers at a go and a ride lasting for 17 minutes.</p>
+                    <p>Two river mall, Nairobi, Kenya</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=95try5lQAkU"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/pages/category/Product-Service/Eye-of-Kenya-617846298675116/"><i
+                                class="fa fa-facebook"></i></a>
+                    </div>
+                    <br><br><br><br><br>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/download (1).jpeg" alt="" style="width:100%">
+                    <h1>The Giraffe centre:</h1>
+                    <p class="title">The Giraffe Center is located in Lang'ata, approximately 20 kilometres from the
+                        centre of Nairobi, Kenya. It was established in order to protect the endangered giraffe, that is
+                        found only in the grasslands of East Africa</p>
+                    <p>Duma Rd, Nairobi</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=95try5lQAkU"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/pages/category/Product-Service/Eye-of-Kenya-617846298675116/"><i
+                                class="fa fa-facebook"></i></a>
+                    </div>
+                    <br><br>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/download (2).jpeg" alt="" style="width:100%">
+                    <h1>Funscapes :</h1>
+                    <p class="title">The hub,Karen.</p>
+                    <p>Funscapes has something for all ages and its an indoor mini amusement park that is opened seven
+                        days a week rain and Shine. They have video games, mini rollercoaster and rides. The smaller
+                        children can play in the largFunscapes has something for all ages and its an indoor mini
+                        amusement park that is opened seven days a week rain and Shine. They have video games, mini
+                        rollercoaster and rides.</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=6OQ5QE1A5Kg"><i class="fa fa-youtube"></i></a>
+                        <a
+                            href="https://www.facebook.com/TheHubKaren/posts/funscapes-limited-ultimate-indoor-fun-and-games-that-are-kids-oriented-insidethe/955229691213938/"><i
+                                class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+
+
+
+        </div>
+        <div class="row-1">
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/gpkart.png" alt="" style="width:100%">
+                    <h1>GP karting:</h1>
+                    <p class="title">If you are looking for fun things to keep your young ones engaged then this place
+                        might do the trick but its not exactly engaging for Adults as the track isn't really much of a
+                        challenge.A chance to race your friends and colleagues and see who has skill and courage. Well
+                        worth it albeit the go karts are becoming a bit old and prone to inconsistent performance.</p>
+                    <p>Carnivore road off Langata Road. Racing Circuit, Nairobi City</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=xZsWlNS_VXI"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/gpkartingnairobi/"><i class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/l_bbcfd2407da5efd2de6a8aad4714dca9.jpg" alt="" style="width:100%">
+                    <h1>The chaka Ranch:</h1>
+                    <p class="title">Chaka Ranch is a 'must-go' place. As a Child, Teenager and Adult wow the owners
+                        sure do know how to pull in a crowd. The vast area with loads of activities - team building at
+                        the 'climbing towers' hahaha and the 'Giant slide' OMG the bestest hehehe the 'soccer shoot-out'
+                        just sooo amazing. And not forgetting the 'Quad Bikes' Holy Wow those bikes and the rides
+                        waaaaw.</p>
+                    <p>Nyeri, Kenya</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=95try5lQAkU"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/pages/category/Product-Service/Eye-of-Kenya-617846298675116/"><i
+                                class="fa fa-facebook"></i></a>
+                    </div>
+                    <br><br>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/Maji-Magic-Aquapark-Logo.png" alt="" style="width:100%">
+                    <h1> Maji Magic AquaPark:</h1>
+                    <p class="title">Waterfront, Karen</p>
+                    <p>waterpark.</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=6OQ5QE1A5Kg"><i class="fa fa-youtube"></i></a>
+                        <a
+                            href="https://www.facebook.com/TheHubKaren/posts/funscapes-limited-ultimate-indoor-fun-and-games-that-are-kids-oriented-insidethe/955229691213938/"><i
+                                class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+
+
+
+        </div>
+        <div class="row-2">
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/download (3).jpeg" alt="" style="width:100%">
+                    <h1>The Forest:</h1>
+                    <p class="title">Limuru,Kenya</p>
+                    <p>The Forest possesses character and wonder in abundance, and it all can be absorbed at the
+                        restaurant and lounge area at the adventure center. The view delights as far as the eye can see
+                        into the Aberdare Ranges and on a clear sunny day, Mount Kenya is majestically visible.
+                        We source fresh produce from the local area to bring you a memorable and unique culinary
+                        experience. Whether you’re keen to sample our extensive buffet to dining in an elegant space, we
+                        have everything to delight your taste buds.</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=xZsWlNS_VXI"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/gpkartingnairobi/"><i class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/paradise-lost-waterfalls.jpg" alt="" style="width:100%">
+                    <h1>Paradise Lost:</h1>
+                    <p class="title">Paradise Lost Resort in Kenya was discovered in 1996 by coffee farmers in Kenya.
+                        Paradise Lost Resort in Kiambu is beautiful scenery which oozes such beauty that the name
+                        fittingly benefits the surrounding and the nature. The main attraction at Paradise Lost Resort
+                        in Kiambu which is a 54 acre farm is the Paradise Lost Resort caves in Kenya that are eroded by
+                        the nearby Gichi River in Kenya with their entrance screened by an impressive cascading Paradise
+                        Lost waterfall in Kenya.</p>
+                    <p>Kiambu, Kenya</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=95try5lQAkU"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/pages/category/Product-Service/Eye-of-Kenya-617846298675116/"><i
+                                class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+            <div class="columncard">
+                <div class="card">
+
+                    <img src="./Pictures/paintball.jpeg" alt="" style="width:100%">
+                    <h1>Paintball Fury:</h1>
+                    <p class="title">Waterfront, Karen</p>
+                    <p>Paintball is a sport or entertainment in which the objective is to knock out/eliminate your
+                        opponent by hitting a ball with paint fired from a Paintball Marker. Paintball is played with a
+                        potentially limitless variety of rules and variations, which are specified before the game
+                        begins.</p>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.youtube.com/watch?v=vOHC1J1XchI"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/paintballfuryltd/"><i class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+                <p><button>Sign up</button></p>
+            </div>
+            <br><br><br>
+            <div class="Testimonials">
+                <img src="./Pictures/billg.jpg" alt="Avatar" style="width:90px">
+                <p><span>Bill gates.</span> Founder Of Bill&Melinda gates foundation.</p>
+                <p>"Happiness is a choice a repititive one."</p>
+            </div>
+
+            <div class="Testimonials">
+                <img src="./Pictures/cb.jpg" alt="Avatar" style="width:90px">
+                <p><span>Chris Brown.</span> Singer-songwriter.</p>
+                <p>“Everywhere that I’ve been, the only thing I see is beautiful people.”</p>
+            </div>
+
+
+
 </body>
 
 </html>

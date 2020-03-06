@@ -1,5 +1,76 @@
 body{
-    background-image: url(..//group-project/Pictures/pete-nowicki-8G_VvJrYKkE-unsplash.jpg);
+    background-image: url(../Travel-advisory-Kenya./Pictures/pete-nowicki-8G_VvJrYKkE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+#titlepage{
+    text-align: center;
+    color: black;
+}
+.about{
+    text-align: center;
+    color: black;
+}
+.columncard{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+.container-10 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.Testimonials::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.Testimonials img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.Testimonials span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .Testimonials {
+    text-align: center;
+  }
+
+  .Testimonials img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
 }
